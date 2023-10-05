@@ -155,6 +155,7 @@ No known bugs at this time.
 
 ## Authors
 Uche Ofia - [Github](https://github.com/Cofucan) / [Twitter](https://twitter.com/coolucheofia)  
+Andee Olayinkascott - [Github](https://github.com/scottandee) / [Twitter](https://twitter.com/scott__andee)
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 
 Second part of Airbnb: Joann Vuong
