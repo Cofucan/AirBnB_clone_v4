@@ -1,3 +1,8 @@
+function trimComma (str) {
+  const string = str.trim();
+  return string.replace(/^,*|,*$/g, '');
+}
+
 $(document).ready(function () {
   // Select all checkboxes
   const checkboxes = $('ul li input[type="checkbox"]');
@@ -22,6 +27,11 @@ $(document).ready(function () {
     } else {
       // remove from selectedAmenities if unchecked
       delete selectedAmenities[cb.attr('data-id')];
+      $('.amenities h4').text((index, oldText) => {
+        let newText = oldText.replace(', ' + cb.attr('data-name'), '');
+        newText = newText.replace(cb.attr('data-name'), '');
+        return trimComma(newText);
+      });
     }
   });
 });
